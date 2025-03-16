@@ -9,6 +9,9 @@ export default {
       colors: {
       'topbar': '#282828',
     },
+    spacing: {
+      'max-width': '1140px',
+    }
   },
   },
   plugins: [],
