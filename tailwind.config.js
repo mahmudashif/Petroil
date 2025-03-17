@@ -11,6 +11,7 @@ export default {
     extend: {
       colors: {
       'topbar': '#282828',
+      'navbarColor' : '#F40404',
     },
     spacing: {
       'max-width': '1140px',
