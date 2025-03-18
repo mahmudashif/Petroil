@@ -28,8 +28,11 @@ const Navbar = () => {
           </ul>
         </nav>
         <div>
-          <button className="border-[2px] px-8 py-3 text-white font-poppins font-bold">
-            Contact
+          <button className="relative border-[2px] px-8 py-3 text-white font-poppins font-bold overflow-hidden group transition-all duration-300 ease-in-out border-white">
+            <span className="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+            <span className="relative z-10 group-hover:text-black transition-colors duration-300">
+              Contact
+            </span>
           </button>
         </div>
       </div>
