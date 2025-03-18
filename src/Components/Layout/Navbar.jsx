@@ -5,19 +5,19 @@ const navItems = [
   { item: "Home", path: "/" },
   { item: "About", path: "/about" },
   { item: "Services", path: "/services" },
-  { item: "Portfolio", path: "/portfolio" },
-  { item: "Contact", path: "/contact" },
+  { item: "Gallery", path: "/gallery" },
+  { item: "Blog", path: "/blog" },
 ];
 
 const Navbar = () => {
   return (
     <div className="bg-navbarColor">
-      <div className="max-w-max-width mx-auto py-2 flex justify-between items-center">
+      <div className="max-w-max-width mx-auto py-3 flex justify-between items-center">
         <div>
           <img src={logo} alt="Logo" className="h-10" />
         </div>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="flex space-x-8">
             {navItems.map((nav, index) => (
               <li key={index}>
                 <a href={nav.path} className="text-white hover:text-gray-300">
