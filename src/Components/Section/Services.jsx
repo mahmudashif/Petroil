@@ -6,6 +6,7 @@ import servicesImg4 from "/public/servicesImg4.svg";
 import servicesImg5 from "/public/servicesImg5.svg";
 import servicesImg6 from "/public/servicesImg6.svg";
 import servicesImg7 from "/public/servicesImg7.svg";
+import servicesImg8 from "/public/servicesImg8.svg";
 
 const Services = () => {
   return (
@@ -36,9 +37,18 @@ const Services = () => {
           <img src={servicesImg7} alt="" />
         </div>
       </div>
-      <div>
-        <div>Learn more about our company</div>
-        <div></div>
+      <div className="bg-[#F0F0F0] py-[136px]">
+        <div className="max-w-max-width mx-auto flex">
+          <div className="bg-red-600 w-[30%] text-white font-poppins py-24 px-16 font-bold text-4xl leading-[100%]">
+            Learn more about our company
+          </div>
+          <div className="relative flex items-center justify-center">
+            <img src={servicesImg8} alt="" className="w-full" />
+            <button className="absolute px-6 py-3 text-red-600 font-bold font-poppins bg-white border border-black shadow-md transition-all duration-300 ease-in-out hover:bg-black hover:text-white hover:scale-105 hover:shadow-lg">
+              Learn More
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
