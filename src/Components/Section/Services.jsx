@@ -36,6 +36,10 @@ const Services = () => {
           <img src={servicesImg7} alt="" />
         </div>
       </div>
+      <div>
+        <div>Learn more about our company</div>
+        <div></div>
+      </div>
     </div>
   );
 };
