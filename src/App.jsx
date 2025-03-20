@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Layout/Footer";
 import Navbar from "./Components/Layout/Navbar";
 import Topbar from "./Components/Layout/Topbar";
 import CompanyLogo from "./Components/Section/CompanyLogo";
@@ -15,6 +16,7 @@ function App() {
       <Supplier />
       <Services />
       <CompanyLogo />
+      <Footer />
     </>
   );
 }

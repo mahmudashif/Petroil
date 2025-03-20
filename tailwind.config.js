@@ -12,6 +12,7 @@ export default {
       colors: {
       'topbar': '#282828',
       'navbarColor' : '#F40404',
+      'footerColor' : '#1F1F1F',
     },
     spacing: {
       'max-width': '1140px',
