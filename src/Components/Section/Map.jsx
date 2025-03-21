@@ -1,7 +1,11 @@
 import React from "react";
 
 const Map = () => {
-  return <div>Map</div>;
+  return (
+    <div>
+      <img src="/public/map.svg" alt="" />
+    </div>
+  );
 };
 
 export default Map;
