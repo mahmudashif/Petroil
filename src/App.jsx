@@ -4,6 +4,7 @@ import Navbar from "./Components/Layout/Navbar";
 import Topbar from "./Components/Layout/Topbar";
 import CompanyLogo from "./Components/Section/CompanyLogo";
 import Hero from "./Components/Section/Hero";
+import Map from "./Components/Section/Map";
 import Services from "./Components/Section/Services";
 import Supplier from "./Components/Section/Supplier";
 
@@ -16,6 +17,7 @@ function App() {
       <Supplier />
       <Services />
       <CompanyLogo />
+      <Map />
       <Footer />
     </>
   );
