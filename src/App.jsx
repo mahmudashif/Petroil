@@ -2,6 +2,7 @@ import "./App.css";
 import Footer from "./Components/Layout/Footer";
 import Navbar from "./Components/Layout/Navbar";
 import Topbar from "./Components/Layout/Topbar";
+import Blog from "./Components/Section/Blog";
 import CompanyLogo from "./Components/Section/CompanyLogo";
 import Hero from "./Components/Section/Hero";
 import Map from "./Components/Section/Map";
@@ -17,6 +18,7 @@ function App() {
       <Supplier />
       <Services />
       <CompanyLogo />
+      <Blog />
       <Map />
       <Footer />
     </>
