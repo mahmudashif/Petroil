@@ -40,7 +40,7 @@ const Footer = () => {
             <FaInstagramSquare />
           </div>
         </div>
-        {/* ---------- footer first coloum ---------- */}
+        {/* ---------- footer second coloum ---------- */}
         <div>
           <h6>Company</h6>
           <ul className="mt-5 space-y-3 capitalize">
@@ -48,6 +48,16 @@ const Footer = () => {
             <li>about</li>
             <li>services</li>
             <li>gallery</li>
+          </ul>
+        </div>
+        {/* ---------- footer third coloum ---------- */}
+        <div>
+          <h6>Others</h6>
+          <ul className="mt-5 space-y-3 capitalize">
+            <li>blog</li>
+            <li>contact</li>
+            <li>terms and conditions</li>
+            <li>privacy policy</li>
           </ul>
         </div>
       </div>
