@@ -1,4 +1,10 @@
 import React from "react";
+import {
+  FaFacebook,
+  FaInstagramSquare,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { IoMailUnreadOutline } from "react-icons/io5";
 import { MdAddIcCall } from "react-icons/md";
@@ -26,6 +32,12 @@ const Footer = () => {
               <FaMapLocationDot />
               101 baker street, NYC
             </p>
+          </div>
+          <div className="flex mt-6 gap-x-5 text-2xl text-red-300 items-center">
+            <FaFacebook />
+            <FaTwitter />
+            <FaLinkedin />
+            <FaInstagramSquare />
           </div>
         </div>
       </div>
