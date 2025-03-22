@@ -13,7 +13,7 @@ import logo from "/public/footerLogo.svg";
 const Footer = () => {
   return (
     <div className="bg-footerColor py-[149px]">
-      <div className="text-white max-w-max-width mx-auto">
+      <div className="text-white max-w-max-width mx-auto flex justify-between items-center">
         {/* ---------- footer first coloum ---------- */}
         <div>
           <div>
@@ -43,8 +43,11 @@ const Footer = () => {
         {/* ---------- footer first coloum ---------- */}
         <div>
           <h6>Company</h6>
-          <ul>
-            <li></li>
+          <ul className="mt-5 space-y-3 capitalize">
+            <li>home</li>
+            <li>about</li>
+            <li>services</li>
+            <li>gallery</li>
           </ul>
         </div>
       </div>
