@@ -8,6 +8,8 @@ import {
 import { FaMapLocationDot } from "react-icons/fa6";
 import { IoMailUnreadOutline } from "react-icons/io5";
 import { MdAddIcCall } from "react-icons/md";
+import certificate1 from "/public/Cert1.svg";
+import certificate2 from "/public/Cert2.svg";
 import logo from "/public/footerLogo.svg";
 
 const Footer = () => {
@@ -63,8 +65,10 @@ const Footer = () => {
         {/* ---------- footer fourth coloum ---------- */}
         <div>
           <h6>Certificate</h6>
-          <img src={certificate1} alt="" />
-          <img src={certificate2} alt="" />
+          <div className="flex mt-5 gap-x-5">
+            <img src={certificate1} alt="" />
+            <img src={certificate2} alt="" />
+          </div>
         </div>
       </div>
     </div>
