@@ -18,9 +18,9 @@ const Services = () => {
         <img src={servicesImg4} alt="" />
       </div>
       <div className="flex justify-between mt-10">
-        <div className="w-[50%]">
-          <h3>our services</h3>
-          <p>
+        <div className="w-[50%] pl-[20%] space-y-5 pr-28 mt-20">
+          <h3 className="font-poppins font-bold text-6xl">our services</h3>
+          <p className="font-poppins font-medium leading-[100%] text-lg">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
