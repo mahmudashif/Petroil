@@ -40,6 +40,13 @@ const Footer = () => {
             <FaInstagramSquare />
           </div>
         </div>
+        {/* ---------- footer first coloum ---------- */}
+        <div>
+          <h6>Company</h6>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </div>
   );
