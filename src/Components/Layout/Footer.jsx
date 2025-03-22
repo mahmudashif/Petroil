@@ -60,6 +60,12 @@ const Footer = () => {
             <li>privacy policy</li>
           </ul>
         </div>
+        {/* ---------- footer fourth coloum ---------- */}
+        <div>
+          <h6>Certificate</h6>
+          <img src={certificate1} alt="" />
+          <img src={certificate2} alt="" />
+        </div>
       </div>
     </div>
   );
