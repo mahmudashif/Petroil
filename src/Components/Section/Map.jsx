@@ -1,14 +1,11 @@
 import React from "react";
+import map from "/public/Maps.svg";
 
 const Map = () => {
   return (
     <div className="font-poppins">
       <div className="flex w-full justify-center">
-        <img
-          src="/public/Maps.svg"
-          alt="Map"
-          className="w-full h-auto object-cover"
-        />
+        <img src={map} alt="Map" className="w-full h-auto object-cover" />
       </div>
 
       <div className="bg-red-500">
